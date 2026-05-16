@@ -1,0 +1,26 @@
+h3 {
+  font-family: Georgia;
+  font-weight: normal;
+}
+h1 {
+  font-family: Georgia;
+}
+p {
+  font-size: 1px;
+  background-color: black;
+  color: red;
+}
+a {
+  text-decoration: none;
+  color: darkblue;
+  font-family: Georgia;
+}
+h4 {
+  font-weight: normal;
+}
+t {
+  font-family: monospace;
+}
+mark {
+  color: darkred;
+}
