@@ -1,0 +1,14 @@
+.HomeP1 {
+  position: relative;
+  left: 10px;
+}
+.Return {
+position: fixed;
+margin-top: -26px;
+margin-left: -6px;
+}
+.Enter {
+  position: relative;
+  margin-top: -26px;
+  right: 142px;
+}
