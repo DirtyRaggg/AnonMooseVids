@@ -1,14 +1,22 @@
-.HomeP1 {
-  position: relative;
-  left: 10px;
+.Page1 {
+  width: 610px;
+  height: 450px;
+  image-rendering: normal;
+  margin-top: 30;
+  border-radius: 40px;
+  padding: 15px;
 }
 .Return {
-position: fixed;
-margin-top: -26px;
-margin-left: -6px;
+  width: 305px;
+  height: 115px;
+  image-rendering: normal;
+  margin-top: -41px;
+  margin-right: -306;
 }
 .Enter {
-  position: relative;
-  margin-top: -26px;
-  right: 142px;
+  width: 305px;
+  height: 115px;
+  image-rendering: normal;
+  margin-top: -131px;
+  margin-right: 303;
 }

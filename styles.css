@@ -1,4 +1,100 @@
- a {
+a {
     text-decoration: none;
-    color:darkblue;
+    color: #1a236e;
  }
+ .Blogie {
+  border-radius: 30px;
+  padding: 25px;
+  width: 610px;
+  height: 150px;
+  filter: drop-shadow(0 0 5px rgb(14, 72, 109));
+  transition: filter 0.3s ease;
+}
+.Blogie:hover {
+    filter: drop-shadow(0 0 9px rgb(24, 37, 46));
+}
+ .AnnPL {
+  border-radius: 30px;
+  padding: 25px;
+  width: 610px;
+  height: 120px;
+  filter: drop-shadow(0 0 5px rgb(14, 72, 109));
+  transition: filter 0.3s ease;
+}
+.AnnPL:hover {
+    filter: drop-shadow(0 0 9px rgb(24, 37, 46));
+}
+ .HeartsRush {
+  border-radius: 30px;
+  padding: 25px;
+  width: 610px;
+  height: 150px;
+  filter: drop-shadow(0 0 5px rgb(255, 229, 90));
+  transition: filter 0.3s ease;
+}
+.HeartsRush:hover {
+    filter: drop-shadow(0 0 9px rgb(24, 37, 46));
+}
+ .Starsess {
+  border-radius: 30px;
+  padding: 25px;
+  width: 550px;
+  height: 120px;
+  filter: drop-shadow(0 0 5px rgb(57, 39, 25));
+  transition: filter 0.3s ease;
+}
+.Starsess:hover {
+    filter: drop-shadow(0 0 9px rgb(24, 37, 46));
+}
+.VidsA {
+color: #0f0f0f;
+text-shadow: 0 0 10px rgb(107, 107, 107);
+}
+@font-face {
+  font-family: 'MyFont';
+  src: url('https://files.catbox.moe/15d5qv.woff') format('woff2'),
+  font-weight: normal;
+  font-style: normal;
+  width: 1px;
+  height: 1px;
+}
+p {
+  font-family: 'MyFont';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+}
+@font-face {
+  font-family: 'MyFont1';
+  src: url('https://files.catbox.moe/joaxdf.woff') format('woff2'),
+  font-weight: normal;
+  font-style: normal;
+  width: 1px;
+  height: 1px;
+}
+h2 { 
+  font-family: 'MyFont1';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25px;
+}
+h3 { 
+  font-family: 'MyFont1';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+}
+.LL {
+  color: #1E2D6B;
+}
+.Prime18 {
+  border-radius: 30px;
+  padding: 25px;
+  width: 610px;
+  height: 120px;
+  filter: drop-shadow(0 0 5px rgb(57, 39, 25));
+  transition: filter 0.3s ease;
+}
+.Prime18:hover {
+    filter: drop-shadow(0 0 9px rgb(24, 37, 46));
+}

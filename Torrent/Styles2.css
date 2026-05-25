@@ -1,21 +1,63 @@
 h3 {
-  font-family: Georgia;
+  font-family: 'FFA';
   font-weight: normal;
+  font-style: normal;
+  font-size: 25px;
 }
 h1 {
-  font-family: Georgia;
+  font-family: 'FFA';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
 }
 p {
-  font-size: 1px;
-  background-color: black;
-  color: red;
+  font-family: 'Wan';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
 }
 h4 {
+  font-family: 'Wan';
   font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+}
+h2{
+  font-family: 'Wan';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 27px;
 }
 t {
-  font-family: monospace;
+  font-family: 'F25';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
 }
 mark {
   color: darkred;
+}
+@font-face {
+  font-family: 'F25';
+  src: url('https://files.catbox.moe/gp4jm4.woff') format('woff2'),
+  font-weight: normal;
+  font-style: normal;
+  width: 1px;
+  height: 1px;
+}
+@font-face {
+  font-family: 'FFA';
+  src: url('https://files.catbox.moe/quaara.woff') format('woff2'),
+  font-weight: normal;
+  font-style: normal;
+  width: 1px;
+  height: 1px;
+}
+@font-face {
+  font-family: 'Wan';
+  src: url('https://files.catbox.moe/40ox3h.woff') format('woff2'),
+  font-weight: normal;
+  font-style: normal;
+  width: 1px;
+  height: 1px;
 }
