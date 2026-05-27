@@ -52,7 +52,7 @@ text-shadow: 0 0 10px rgb(107, 107, 107);
 }
 @font-face {
   font-family: 'MyFont';
-  src: url('https://files.catbox.moe/15d5qv.woff') format('woff2'),
+  src: url('https://files.catbox.moe/15d5qv.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   width: 1px;
@@ -60,7 +60,7 @@ text-shadow: 0 0 10px rgb(107, 107, 107);
 }
 @font-face {
   font-family: 'MyFont1';
-  src: url('https://files.catbox.moe/joaxdf.woff') format('woff2'),
+  src: url('https://files.catbox.moe/joaxdf.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   width: 1px;

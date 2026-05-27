@@ -1,63 +1,64 @@
+.Torrents {
+color: #0f0f0f;
+text-shadow: 0 0 10px rgb(107, 107, 107);
+}
+.Blackbar {
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+}
+.Bio {
+color: #0f0f0f;
+text-shadow: 0 0 10px rgb(54, 54, 54);
+}
+.Click {
+  background: url("https://files.catbox.moe/y3p3db.jpg");
+  border-color: yellow;
+  box-shadow: 0 0 30px rgb(255, 255, 0);
+}
+.Toni {
+  display: hidden;
+  width: 310px;
+  height: 420px;
+  image-orientation: fixed;
+  border-width: 2px;
+  border-style: solid;
+  border-color: yellow;
+  border-radius: 30px;
+}
+.Toni { display: hidden; }
+.Click:hover + .Toni { display: block; }
+
+@font-face {
+  font-family: 'FFA';
+  src: url('https://files.catbox.moe/joaxdf.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  width: 1px;
+  height: 1px;
+}
 h3 {
   font-family: 'FFA';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 18px;
+  box-shadow: 0 0 25px rgb(140, 140, 140);
 }
-h1 {
-  font-family: 'FFA';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 30px;
+body {
+  background-image: url('https://files.catbox.moe/qqpoxl.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
-p {
-  font-family: 'Wan';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 15px;
+.Click1 {
+  background: url("https://files.catbox.moe/jtrkcf.webp");
+  border-color: rgb(107, 143, 24);
+  box-shadow: 0 0 30px rgb(212, 132, 47);
 }
-h4 {
-  font-family: 'FFA';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 15px;
-}
-h2{
-  font-family: 'Wan';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 27px;
-}
-t {
-  font-family: 'F25';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 15px;
-}
-mark {
-  color: darkred;
-}
-@font-face {
-  font-family: 'F25';
-  src: url('https://files.catbox.moe/gp4jm4.woff') format('woff2'),
-  font-weight: normal;
-  font-style: normal;
-  width: 1px;
-  height: 1px;
-}
-@font-face {
-  font-family: 'FFA';
-  src: url('https://files.catbox.moe/quaara.woff') format('woff2'),
-  font-weight: normal;
-  font-style: normal;
-  width: 1px;
-  height: 1px;
-}
-@font-face {
-  font-family: 'Wan';
-  src: url('https://files.catbox.moe/40ox3h.woff') format('woff2'),
-  font-weight: normal;
-  font-style: normal;
-  width: 1px;
-  height: 1px;
+.Robbie {
+  display: hidden;
+  width: 310px;
+  height: 470px;
+  image-orientation: fixed;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(130, 158, 64);
+  border-radius: 30px;
 }
