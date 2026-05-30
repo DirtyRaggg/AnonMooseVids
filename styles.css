@@ -1,7 +1,12 @@
  a {
     text-decoration: none;
     color: #1a236e;
+    text-shadow: 0 0 1.3px rgb(50, 78, 117);
+    display: inline-block;
  }
+a:hover {
+    filter: drop-shadow(0 0 3px rgb(33, 51, 77));
+}
  .Blogie {
   border-radius: 30px;
   padding: 25px;
@@ -48,7 +53,7 @@
 }
 .VidsA {
 color: #0f0f0f;
-text-shadow: 0 0 10px rgb(107, 107, 107);
+text-shadow: 0 0 5px rgb(43, 43, 43);
 }
 @font-face {
   font-family: 'MyFont';
@@ -80,6 +85,8 @@ h3 {
 }
 .LL {
   color: #1E2D6B;
+  user-select: all;
+  overflow: auto;
 }
 .Prime18 {
   border-radius: 30px;
@@ -91,4 +98,39 @@ h3 {
 }
 .Prime18:hover {
     filter: drop-shadow(0 0 9px rgb(24, 37, 46));
+}
+.Proton {
+  user-select: all;
+  overflow: auto;
+}
+.Intro {
+  text-shadow: 0 0 3px rgb(135, 2, 2);
+  display: inline-block;
+}
+.Issues {
+  text-shadow: 0 0 3px rgb(135, 2, 2);
+  display: inline-block;
+}
+.blackbar {
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  filter: blur(3px);
+}
+.Text {
+  font-family: 'MyFont1';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  color: rgb(50, 78, 117);
+}
+body {
+  background-image: url('https://files.catbox.moe/2gtflb.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.Dates {
+  font-weight: bold;
+  font-kerning: 100%;
 }
